@@ -12,11 +12,11 @@ typedef unordered_map<ll,ll> umap;
 #define loop(i,a,b) for(ll i=a;i<b;i++) 
 #define For(i,n) for(int i=0;i<(ll)n;i++)
 #define Rev(i,n) for(int i=n-1;i>=0;i--)
-#define Rep(i,n) for(int =1;i<=n;++i)
+#define Rep(i,n) for(int i=1;i<=n;++i)
 #define F first
 #define S second
-#define sort(v) sort(v.begin(),v.end())
-#define sort(a,n) sort(a,a+n)
+#define sortv(v) sort(v.begin(),v.end())
+#define sorta(a,n) sort(a,a+n)
 #define mp(a,b) make_pair(a,b)
 #define int ll
 
