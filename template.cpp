@@ -18,7 +18,7 @@ typedef unordered_map<ll,ll> umap;
 #define sortv(v) sort(v.begin(),v.end())
 #define sorta(a,n) sort(a,a+n)
 #define mp(a,b) make_pair(a,b)
-#define int ll
+#define int long long
 
 void solve(){
     ll n;  cin>>n;
