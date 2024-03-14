@@ -6,6 +6,7 @@ typedef long long ll;
 typedef pair<int,int> pil;
 typedef pair<long,long> pll;
 typedef vector<ll> vll;
+typedef vector<string> vs;
 typedef vector<pll> vpll;
 typedef unordered_map<ll,ll> umap;
 #define pb push_back 
@@ -26,6 +27,10 @@ void solve(){
 }
 
 signed main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
     ll t; cin>>t;  while(t--){
         solve();
        }
