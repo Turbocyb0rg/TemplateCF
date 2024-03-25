@@ -8,7 +8,7 @@ typedef pair<long,long> pll;
 typedef vector<ll> vll;
 typedef vector<string> vs;
 typedef vector<pll> vpll;
-typedef unordered_map<ll,ll> umap;
+typedef map<ll,ll> map;
 #define pb push_back 
 #define loop(i,a,b) for(ll i=a;i<b;i++) 
 #define For(i,n) for(int i=0;i<(ll)n;i++)
@@ -21,6 +21,16 @@ typedef unordered_map<ll,ll> umap;
 #define mp(a,b) make_pair(a,b)
 #define int long long
 
+ll gcd(ll a,ll b){
+    if(b==0)
+        return a;
+    return gcd(b,a%b);
+}
+
+ll lcm(ll a,ll b){
+    return (a*b)/gcd(a,b);
+}
+
 void solve(){
     ll n;  cin>>n;
 
@@ -31,8 +41,10 @@ signed main(){
     cin.tie(NULL);
     cout.tie(NULL);
     
-    ll t; cin>>t;  while(t--){
+    ll t=1;
+    cin>>t;  
+    while(t--){
         solve();
-       }
+    }
     return 0;
 }
