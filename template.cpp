@@ -8,7 +8,7 @@ typedef pair<long,long> pll;
 typedef vector<ll> vll;
 typedef vector<string> vs;
 typedef vector<pll> vpll;
-typedef map<ll,ll> mp;
+typedef map<ll,ll> mpl;
 #define pb push_back 
 #define loop(i,a,b) for(ll i=a;i<b;i++) 
 #define For(i,n) for(int i=0;i<(ll)n;i++)
